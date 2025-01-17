@@ -11,23 +11,6 @@
 透過簡單的 Controller 和服務類別，顯示不同生命周期的物件在應用程式中的行為差異。
 
 
-## 專案結構
-DI_Service_Lifetime/
-├── Controllers/
-│   └── HomeController.cs      // 控制器，測試和展示 DI 的不同生命周期行為
-├── Services/
-│   ├── ISingletonGuidService.cs
-│   ├── IScopedGuidService.cs
-│   ├── ITransientGuidService.cs
-│   ├── SingletonGuidService.cs
-│   ├── ScopedGuidService.cs
-│   └── TransientGuidService.cs
-├── Models/
-│   └── ErrorViewModel.cs      // 用於 Error 頁面的模型
-├── Program.cs                 // 註冊 DI 的生命周期設定
-├── appsettings.json           // 設定檔
-└── DI_Service_Lifetime.csproj // 專案檔
-
 ## 啟動專案
 1. 確保安裝了以下工具：
    - [.NET 8 SDK](https://dotnet.microsoft.com/)
